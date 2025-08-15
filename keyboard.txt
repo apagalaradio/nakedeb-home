@@ -1,0 +1,14 @@
+#CONFIGURACION DEL ARCHIVO /etc/default/keyboard
+# para entrada en 2 idiomas y cambiar con shift+CapsLlock
+
+
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="us,latam"
+XKBVARIANT=","
+XKBOPTIONS="grp:shift_caps_toggle"
+
+BACKSPACE="guess"
