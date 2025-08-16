@@ -1,6 +1,9 @@
+
+
+-- Cargar configuración de lazy.nvim y plugins
 require("config.lazy")
-
-
+-- Cargar keymaps
+require("config.keymaps")
 
 -- Desactivar wrap globalmente
 vim.opt.wrap = false
