@@ -1,0 +1,30 @@
+[submenu] (Utility)
+[include] (/home/usuario/.fluxbox/automenu/utility.include)
+[end]
+[submenu] (Graphics)
+[include] (/home/usuario/.fluxbox/automenu/graphics.include)
+[end]
+[submenu] (Network)
+[include] (/home/usuario/.fluxbox/automenu/network.include)
+[end]
+[submenu] (office)
+[include] (/home/usuario/.fluxbox/automenu/office.include)
+[end]
+[submenu] (Multimedia)
+[include] (/home/usuario/.fluxbox/automenu/multimedia.include)
+[end]
+[submenu] (Games)
+[include] (/home/usuario/.fluxbox/automenu/game.include)
+[end]
+[submenu] (Development)
+[include] (/home/usuario/.fluxbox/automenu/development.include)
+[end]
+[submenu] (Settings)
+[include] (/home/usuario/.fluxbox/automenu/settings.include)
+[end]
+[submenu] (System)
+[include] (/home/usuario/.fluxbox/automenu/system.include)
+[end]
+[submenu] (Other)
+[include] (/home/usuario/.fluxbox/automenu/other.include)
+[end]

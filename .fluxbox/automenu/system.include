@@ -1,0 +1,5 @@
+[exec] (bashMount) {xterm -geometry 120x40+10+10 -e bashmount} <>
+[exec] (btop++) {xterm -geometry 120x40+10+10 -e btop} <>
+[exec] (UXTerm) {uxterm} <>
+[exec] (XTerm) {xterm} <>
+[exec] (zuluCrypt) {/usr/bin/zuluCrypt-gui -d } <>
