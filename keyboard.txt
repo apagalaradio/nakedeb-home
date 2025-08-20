@@ -1,6 +1,7 @@
 #CONFIGURACION DEL ARCHIVO /etc/default/keyboard
 # para entrada en 2 idiomas y cambiar con shift+CapsLlock
-
+# actualizar configuracion con:  
+# sudo udevadm trigger --subsystem-match=input --action=change
 
 # KEYBOARD CONFIGURATION FILE
 
