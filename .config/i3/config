@@ -120,8 +120,9 @@ exec --no-startup-id "xautolock -detectsleep -time 10 -locker 'nakedquit lock'"
 exec_always --no-startup-id "xrdb ~/.Xresources"
 # random wall
 #####################exec_always --no-startup-id "feh --bg-fill -z /usr/share/backgrounds"
+exec_always --no-startup-id "feh --bg-fill -z ~/nakedwalls"
 # restore wall
-exec_always --no-startup-id "~/.fehbg"
+#exec_always --no-startup-id "~/.fehbg"
 # default wall
 #exec_always --no-startup-id "feh --bg-fill /usr/share/backgrounds/nakedeb.jpg"
 # solid color as wall
@@ -397,37 +398,37 @@ for_window [class="Tk"] floating enable, move absolute position center
 # assign clients to specific workspace #################################
 # disable assign with: `sed -i '/^assign \[/ s/^/#/' ~/.config/i3/config`
 # ws1 mail
-assign [class="thunderbird"] $ws1
+#assign [class="thunderbird"] $ws1
 # ws2 web
-assign [class="firefox-esr"] $ws2
-assign [class="Nightly"] $ws2
-assign [class="Luakit"] $ws2
+#assign [class="firefox-esr"] $ws2
+#assign [class="Nightly"] $ws2
+#assign [class="Luakit"] $ws2
 # ws3 irc
-assign [class="^URxvt$" instance="^irc$"] $ws3
+#assign [class="^URxvt$" instance="^irc$"] $ws3
 # ws4 edit
-assign [class="Geany"] $ws4
-assign [instance="libreoffice"] $ws4
+###################assign [class="Geany"] $ws4
+#assign [instance="libreoffice"] $ws4
 # ws5 media
-assign [class="Handbrake-gtk"] $ws5
-assign [class="Avidemux"] $ws5
-assign [class="avidemux3_portable"] $ws5
-assign [class="Pitivi"] $ws5
-assign [class="openshot"] $ws5
+#assign [class="Handbrake-gtk"] $ws5
+#assign [class="Avidemux"] $ws5
+#assign [class="avidemux3_portable"] $ws5
+#assign [class="Pitivi"] $ws5
+#assign [class="openshot"] $ws5
 # ws6 gfx
-assign [class="Gimp"] $ws6
-assign [class="Inkscape"] $ws6
-assign [class="Gthumb"] $ws6
+#assign [class="Gimp"] $ws6
+#assign [class="Inkscape"] $ws6
+#assign [class="Gthumb"] $ws6
 # ws7 vbox
-assign [class="VirtualBox Manager"] $ws7
-assign [class="VirtualBox Machine"] $ws7
+#assign [class="VirtualBox Manager"] $ws7
+#assign [class="VirtualBox Machine"] $ws7
 # ws8 bkp
-assign [class="Filezilla"] $ws8
-assign [class="Unison"] $ws8
+#assign [class="Filezilla"] $ws8
+#assign [class="Unison"] $ws8
 # ws9 p2p
-assign [class="Transmission-gtk"] $ws9
+#assign [class="Transmission-gtk"] $ws9
 # ws10 top
-assign [class="^URxvt$" instance="^btop$"] $ws10
-assign [class="Psensor"] $ws10
+#######################assign [class="^URxvt$" instance="^btop$"] $ws10
+#assign [class="Psensor"] $ws10
 # ws11 deb
 # ws12 zik
-assign [class="^URxvt$" instance="^player$"] $ws12
+#assign [class="^URxvt$" instance="^player$"] $ws12
