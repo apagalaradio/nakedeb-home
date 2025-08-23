@@ -1,0 +1,141 @@
+/**
+ * MODIFICAR EL ARCHIVO /usr/share/nakedrasi/popmenu.rasi
+ * #para cambiar el tema del popmenu Alt+p
+ */
+
+configuration {
+    display-drun:   "";
+    show-icons:     true;
+    sidebar-mode:   true;
+    lines:          15;
+    click-to-exit:  true;
+}
+* {
+    text-color:       #ebdbb2;
+    foreground:       #ebdbb2;
+    background:       #000000;
+    background-color: #000000;
+    lightbg:          #5e81ac;
+    red:              #bf616a;
+    orange:           #d08770;
+    blue:             #5e81ac;
+    green:            #a3be8c;
+    yellow:           #ebcb8b;
+
+    selected-normal-foreground:  @foreground;
+    normal-foreground:           @text-color;
+    alternate-normal-background: @background;
+    selected-urgent-foreground:  @red;
+    urgent-foreground:           @red;
+    alternate-urgent-background: @background;
+    active-foreground:           @orange;
+    selected-active-foreground:  @foreground;
+    alternate-normal-foreground: @foreground;
+    alternate-active-background: @background;
+    normal-background:           @background;
+    selected-normal-background:  @blue;
+    separatorcolor:              @orange;
+    spacing:                     2;
+    urgent-background:           @background;
+    alternate-urgent-foreground: @red;
+    selected-urgent-background:  @background;
+    alternate-active-foreground: @foreground;
+    selected-active-background:  @orange;
+    active-background:           @background;
+}
+window {
+    fullscreen:       false;
+    font:             "Hack 11";
+    width:            80%;
+    margin:           0;
+    padding:          0;
+    border:           2;
+    border-color:     @lightbg;
+    text-color:       @foreground;
+    background-color: @background;
+    children:         [ mainbox ];
+}
+mainbox {
+    border:   0;
+    padding:  0;
+    children: [ listview,inputbar ];
+}
+inputbar {
+    padding:          10;
+    background-color: @lightbg;
+    children:         [ prompt,textbox-prompt-colon,entry ];
+}
+prompt {
+    background-color: @lightbg;
+    font:             "forkawesome 11";
+}
+textbox-prompt-colon {
+    expand:           false;
+    str:              " > ";
+    background-color: @lightbg;
+}
+entry {
+    background-color: @lightbg;
+}
+listview {
+    fixed-height: 0;
+    margin:       5;
+    text-color:   @foreground;
+    columns:      3;
+}
+sidebar {
+    background-color: @lightbg;
+}
+button {
+    padding:          5 0;
+    font:             "forkawesome 11";
+    background-color: @lightbg;
+}
+button selected {
+    background-color: @blue;
+}
+
+element {
+    border:  0;
+    padding: 3;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element normal.normal {
+    text-color:       @normal-foreground;
+    background-color: @normal-background;
+}
+element normal.urgent {
+    text-color:       @urgent-foreground;
+    background-color: @urgent-background;
+}
+element normal.active {
+    text-color:       @active-foreground;
+    background-color: @active-background;
+}
+element selected.normal {
+    text-color:       @selected-normal-foreground;
+    background-color: @selected-normal-background;
+}
+element selected.urgent {
+    text-color:       @selected-urgent-foreground;
+    background-color: @selected-urgent-background;
+}
+element selected.active {
+    text-color:       @selected-active-foreground;
+    background-color: @selected-active-background;
+}
+element alternate.normal {
+    text-color:       @alternate-normal-foreground;
+    background-color: @alternate-normal-background;
+}
+element alternate.urgent {
+    text-color:       @alternate-urgent-foreground;
+    background-color: @alternate-urgent-background;
+}
+element alternate.active {
+    text-color:       @alternate-active-foreground;
+    background-color: @alternate-active-background;
+}
