@@ -2,6 +2,9 @@
 ! ~/.Xresources configuration file
 !-----------------------------------------------------------------------
 
+
+
+! ALSA MIXER -----------------------------------------------------------
 ! nord inspired colors
 ! black
 *color0:  #3B4252
@@ -35,66 +38,67 @@
 *cursorColor: #D8DEE9
 *colorUL:     #A3BE8C
 
+
 ! Xcursor settings -----------------------------------------------------
-Xcursor.theme: Nordzy-dark-cursor
-Xcursor.size:  24
+Xcursor.theme:	Nordzy-dark-cursor
+Xcursor.size:	24
 
 ! Xft settings ---------------------------------------------------------
-Xft.dpi:       96
-Xft.autohint:  0
-Xft.lcdfilter: lcddefault
-Xft.antialias: 1
-Xft.rgba:      rgb
-Xft.hinting:   1
-Xft.hintstyle: hintfull
+Xft.dpi:	96
+Xft.autohint:	0
+Xft.lcdfilter:	lcddefault
+Xft.antialias:	1
+Xft.rgba:	rgb
+Xft.hinting:	1
+Xft.hintstyle:	hintfull
 
 ! urxvt ----------------------------------------------------------------
-URxvt.termName: rxvt-unicode
-	!URxvt.imLocale: fr_FR.UTF-8
-	 URxvt.imLocale: en_US.UTF-8
-URxvt.saveLines: 5000
-URxvt.cursorBlink: true
+URxvt.termName:		rxvt-unicode
+URxvt.imLocale:		en_US.UTF-8
+URxvt.saveLines:	5000
+URxvt.cursorBlink:	true
 
 ! black
-URxvt.color0: #263640
-URxvt.color8: #4a697d
+URxvt.color0:	#263640
+URxvt.color8:	#4a697d
 ! red
-URxvt.color1: #d12f2c
-URxvt.color9: #fa3935
+URxvt.color1: 	#d12f2c
+URxvt.color9: 	#fa3935
 ! green
-URxvt.color2: #819400
-URxvt.color10: #a4bd00
+URxvt.color2: 	#819400
+URxvt.color10:	#a4bd00
 ! yellow
-URxvt.color3: #b08500
-URxvt.color11: #d9a400
+URxvt.color3: 	#b08500
+URxvt.color11: 	#d9a400
 ! blue
-URxvt.color4: #2587cc
-URxvt.color12: #2ca2f5
+URxvt.color4: 	#2587cc
+URxvt.color12:	#2ca2f5
 ! magenta
-URxvt.color5: #696ebf
-URxvt.color13: #8086e8
+URxvt.color5: 	#696ebf
+URxvt.color13: 	#8086e8
 ! cyan
-URxvt.color6: #289c93
-URxvt.color14: #33c5ba
+URxvt.color6: 	#289c93
+URxvt.color14: 	#33c5ba
 ! white
-URxvt.color7: #bfbaac
-URxvt.color15: #fdf6e3
+URxvt.color7:	#bfbaac
+URxvt.color15: 	#fdf6e3
 
 
-!URxvt.foreground: #d8dee9
-!URxvt.background: #2e3440
-URxvt.foreground: #93a1a1
-!URxvt.background: #141c21
-URxvt.background: #000000
-URxvt.cursorColor: #d8dee9
+URxvt.foreground:	#93a1a1
+URxvt.background:	#0b0e14  
+URxvt.cursorColor:	#d8dee9
 
-URxvt.troughColor: #4c566a
-URxvt.highlightColor: #4c566a
-URxvt.shading: 60
-URxvt.transparent: false
-URxvt.tintColor: #5e81ac
-URxvt.visualBell: false
-URxvt.urgentOnBell: true
+URxvt.fading:		0
+Urxvt.fadeColor:	#4C566A
+URxvt.colorUL:		#A3BE8C
+
+URxvt.troughColor: 	#4c566a
+URxvt.highlightColor: 	#4c566a
+URxvt.shading: 		60
+URxvt.transparent: 	false
+URxvt.tintColor: 	#5e81ac
+URxvt.visualBell: 	false
+URxvt.urgentOnBell: 	true
 
 
 !URxvt.font: xft:Hack:regular:size=9,xft:InconsolataNerdFontMono-Regular:size=12
