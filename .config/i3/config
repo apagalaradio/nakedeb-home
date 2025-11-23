@@ -291,10 +291,19 @@ set $ws11 "11"
 set $ws12 "12"
 
 # change workspaces
-bindsym $mod+Ctrl+Right workspace next
-bindsym Mod4+Right workspace next
-bindsym $mod+Ctrl+Left workspace prev
-bindsym Mod4+Left workspace prev
+#bindsym $mod+Ctrl+Right workspace next
+#bindsym Mod4+Right workspace next
+#bindsym $mod+Ctrl+Left workspace prev
+#bindsym Mod4+Left workspace prev
+
+
+# Rotación de pantalla LVDS-1
+bindsym $mod+Ctrl+Up exec xrandr --output LVDS-1 --rotate normal
+bindsym $mod+Ctrl+Left exec xrandr --output LVDS-1 --rotate left
+bindsym $mod+Ctrl+Right exec xrandr --output LVDS-1 --rotate right
+bindsym $mod+Ctrl+Down exec xrandr --output LVDS-1 --rotate inverted
+
+
 
 # switch to workspace
 bindsym Mod1+1 workspace $ws1
