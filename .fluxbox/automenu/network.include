@@ -1,3 +1,4 @@
+[exec] (Google Chrome) {/usr/bin/google-chrome-stable } <>
 [exec] (lftp) {xterm -geometry 120x40+10+10 -e lftp} <>
 [exec] (nakeDeb Web startpage) {/usr/bin/nakedbrowser} <>
 [exec] (Tor Browser Launcher Settings) {torbrowser-launcher --settings} <>

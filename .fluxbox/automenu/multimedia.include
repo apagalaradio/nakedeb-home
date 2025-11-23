@@ -1,1 +1,2 @@
 [exec] (mpv Media Player) {mpv --player-operation-mode=pseudo-gui -- } <>
+[exec] (VLC media player) {/usr/bin/vlc --started-from-file } <>
